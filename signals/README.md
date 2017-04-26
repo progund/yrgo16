@@ -9,7 +9,7 @@ signal.c - c file with a stupid signal handler
 
 ## Execute
 
-./testing
+```./testing```
 
 ## Sending a signal from another terminal (running bash)
 
@@ -17,7 +17,7 @@ signal.c - c file with a stupid signal handler
 
 Find the pid of the c program. Execute the following command:
 
-kill -SIGINT 1243
+```kill -SIGINT 1243```
 
 assuming that the pid was 1234
 
@@ -25,11 +25,11 @@ assuming that the pid was 1234
 
 Define a bach function by copy/pasting the following code snippet in your shell:
 
-sigge() { PID=$(ps auxww | grep testing | grep -v grep | awk '{ print $2 }'); kill -$1 $PID; }
+```sigge() { PID=$(ps auxww | grep testing | grep -v grep | awk '{ print $2 }'); kill -$1 $PID; }```
 
 Then use the function like this:
 
-sigge SIGINT
+```sigge SIGINT```
 
 which will send the SIGINT signal to the c program
 
