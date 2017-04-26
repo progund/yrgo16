@@ -21,9 +21,9 @@ Find the pid of the c program. Execute the following command:
 
 assuming that the pid was 1234
 
-### Using bach function
+### Using bash function
 
-Define a bach function by copy/pasting the following code snippet in your shell:
+Define a bash function by copy/pasting the following code snippet in your shell:
 
 ```sigge() { PID=$(ps auxww | grep testing | grep -v grep | awk '{ print $2 }'); kill -$1 $PID; }```
 
