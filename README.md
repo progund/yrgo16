@@ -19,9 +19,9 @@ Videos: (https://vimeo.com/214650986)
 
 Source code: (https://github.com/progund/java-misc/tree/master/introducing-lambda/se/juneday)
 
-## On equals and ==
+## On equals and "=="
 Video: (https://vimeo.com/214012332)
 
-##On comparable and comparator
+## On comparable and comparator
 Video: (https://vimeo.com/214012360)
 
