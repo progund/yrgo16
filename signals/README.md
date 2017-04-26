@@ -5,7 +5,7 @@ signal.c - c file with a stupid signal handler
 
 ## Compile signal.c
 
-gcc -pedantic -Werror -Wall signal.c  -o testing 
+'''gcc -pedantic -Werror -Wall signal.c  -o testing '''
 
 ## Execute
 
