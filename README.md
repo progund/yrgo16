@@ -11,10 +11,12 @@ A small stupid C example on how signals work
 
 ## On lambda notation (comparator....)
 Video: (https://vimeo.com/214650961)
+
 Source code: (https://github.com/progund/java-misc/tree/master/introducing-lambda/se/juneday)
 
 ## On filtering
 Videos: (https://vimeo.com/214650986)
+
 Source code: (https://github.com/progund/java-misc/tree/master/introducing-lambda/se/juneday)
 
 ## On equals and ==
